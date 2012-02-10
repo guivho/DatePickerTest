@@ -17,7 +17,7 @@ UIDatePickerMode.DateAndTime and UIDatePickerMode.Time pickers have the hour fie
 I detected this problem with the latest 5.2.x MT, but it may well be inherited from previous versions.
 
 
-** Update **
+_Update_
 
 As Jackson Harper pointed out in the monotouch mailing list, this Date property
 is in UTC.
