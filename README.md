@@ -15,3 +15,14 @@ But the two other modes can also be tested by fiddling with the comments on the 
 UIDatePickerMode.DateAndTime and UIDatePickerMode.Time pickers have the hour field low by one hour.
 
 I detected this problem with the latest 5.2.x MT, but it may well be inherited from previous versions.
+
+
+** Update **
+
+As Jackson Harper pointed out in the monotouch mailing list, this Date property
+is in UTC.
+
+My local time is UTC+1, so the reported date is midnight - 1 hour, ergo the
+previous day.
+
+Sorry for the noise.
